@@ -3,7 +3,7 @@
 * TestNG
 * Data driven testing
 
-##Install
+## Install
 * get maven
 * `mvn install`
 
@@ -13,7 +13,8 @@
     * if every key is present in every record
 * Test data
     * If values is correct - test via regex
-    * for example: 
+    * for example: date is correct, id is int, URL is valid url
+    * URL are valid and user is able to download it or stream. 
 ### URL Params and results
 * Test **query** (every possibilities)
     * Testing normal input, corner cases, default value (q is not defined)
